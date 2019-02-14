@@ -7,6 +7,8 @@
                 <section class="status_form">
                     @include('shared._status_form')
                 </section>
+                <h4>Article list</h4>
+                @include('shared._feed')
             </div>
             <aside class="col-md-4">
                 <div class="lead">
