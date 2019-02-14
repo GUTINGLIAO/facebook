@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'emal.blade.php', 'password',
+        'name', 'email', 'password',
     ];
 
     /**

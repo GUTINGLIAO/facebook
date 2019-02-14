@@ -2,7 +2,7 @@
     <div>
         <ul>
             @foreach($errors->all() as $error)
-                <li>{{$error}}</li>
+                <li class="alert alert-success">{{$error}}</li>
             @endforeach
         </ul>
     </div>
