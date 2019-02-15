@@ -19,7 +19,7 @@ class sessionController extends Controller
     }
     public function store(Request $request) {
         $credential = $this->validate($request, [
-            'emal.blade.php' => 'required|emal.blade.php|max:255',
+            'email' => 'required|email|max:255',
             'password' => 'required'
         ]);
 

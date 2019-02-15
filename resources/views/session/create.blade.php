@@ -9,7 +9,7 @@
         <div class="lead">
             <div class="form_group">
                 <label for="email">Email:</label><br>
-                <input class="form-control" type="text", name="email", value="{{old('emal.blade.php')}}">
+                <input class="form-control" type="text", name="email", value="{{old('email')}}">
             </div><br>
 
             <div class="form_group">
