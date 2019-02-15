@@ -14,6 +14,9 @@
                 <div class="lead">
                     {{Auth::user()->name}}
                 </div>
+                <section class="mt-2">
+                    @include('shared._stats', ['user'=>Auth::user()])
+                </section>
             </aside>
         </div>
     @else
